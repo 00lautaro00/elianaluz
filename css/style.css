@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2 {
+    font-family: 'Monoton', cursive;
+    color: orangered;
+}
+
+p {
+    font-family: 'Limelight', cursive;
+    font-weight: 700;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+body {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+img {
+    max-width: 50%;
+}
+
+.contenedor {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.feliz {
+    padding: 8rem;
+    background-color: yellow;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.cumple {
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+    background-color: chartreuse;
+    width: 25px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.letra {
+    text-align: center;
+}
+
+.contenedor-imagen {
+    width: 80%;
+    margin-top: 4rem;
+    border: .5rem solid;
+    border-radius: 10%;
+    border-color: #FBAB7E;
+}
+
+.imagen {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
